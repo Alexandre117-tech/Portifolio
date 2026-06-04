@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Alexandre Maoze - Programador Web e Técnico de Suporte Informático" />
+  <title>Alexandre Maoze | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/header.css">
+<link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="./styles/styles.css">
+
+
+</head>
+<body>
+<header>
+
+<h1 class="logo"><span>A</span>Alexandre</h1>
+
+<nav>
+  <a onclick="showSection('home')">Home</a>
+  <a onclick="showSection('sobre')">Sobre</a>
+  <a onclick="showSection('skills')">Competência</a>
+  <a onclick="showSection('projetos')">Projetos</a>
+  <a onclick="showSection('contacto')">Contacto</a>
+</nav>
+
+</header>
+
+
+<section id="home" class="active">
+<div class="hero">
+
+  <!-- TEXTO -->
+  <div class="hero-text">
+
+    <div class="tag">
+      ✦ Portfólio
+    </div>
+
+    <h1>
+      Alexandre De Seneta <span>Maoze</span>
+    
+    </h1>
+     <h2><span> Full-stack Developer </span></h2>
+
+    <p>
+   Desenvolvedor Full-stack em evolução e criador de sistemas web modernos, focado no desenvolvimento de aplicações completas, interfaces responsivas e soluções digitais eficientes, com atenção à performance, estrutura e experiência do utilizador.
+    </p>
+
+    <div class="redessociais">
+      <ul>
+      <li><svg fill="rgb(164, 6, 255)" width="24px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1168.737 487.897c44.672-41.401 113.824-36.889 118.9-36.663l289.354-.113 6.317-417.504L1539.65 22.9C1511.675 16.02 1426.053 0 1237.324 0 901.268 0 675.425 235.206 675.425 585.137v93.97H337v451.234h338.425V1920h451.234v-789.66h356.7l62.045-451.233H1126.66v-69.152c0-54.937 14.214-96.112 42.078-122.058" fill-rule="evenodd"></path> </g></svg></li>
+      <li><svg width="24px"  viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="rgb(164, 6, 255)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>instagram [#167]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path> </g> </g> </g> </g></svg></li>
+      <li><svg width="24px"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#0F0F0F"></path> </g></svg></li>
+      <li><svg width="24px"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z" fill="#0F0F0F"></path> <path d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z" fill="#0F0F0F"></path> </g></svg></li>
+      <li><svg width="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z" fill="#0F0F0F"></path> </g></svg></li>
+      </ul>
+    </div>
+
+    <div class="buttons">
+
+      <a href="#" class="btn primary">
+       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg> Contactar
+      </a>
+
+      <a href="#" class="btn secondary">
+        
+        Contactar
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- CARD -->
+  <div class="hero-card">
+
+    <div class="glass-card">
+
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+
+      <div class="card-content">
+
+      
+
+  </div>
+
+</div>
+</section>
+
+
+
+
+<section id="sobre" class="sobre" >
+
+  <div class="sobre-container">
+
+    <!-- TEXTO -->
+    <div class="sobre-content">
+
+      <div class="sobre-top">
+        <span>Sobre Mim</span>
+        <div class="line"></div>
+      </div>
+
+      <h2>Desenvolvedor Full-stack em Evolução</h2>
+
+      <p>
+        Desenvolvo soluções digitais completas, desde aplicações web
+        até sistemas desktop, com foco em desempenho, organização,
+        experiência do utilizador e estrutura de dados.
+      </p>
+
+      <div class="sobre-grid">
+
+        <div class="card">
+          <h3>💻 Web Development</h3>
+          <p>Criação de websites e aplicações web modernas, responsivas e funcionais.</p>
+        </div>
+
+        <div class="card">
+          <h3>🖥️ Sistemas Desktop</h3>
+          <p>Desenvolvimento de aplicações desktop focadas em produtividade e gestão.</p>
+        </div>
+
+        <div class="card">
+          <h3>⚙️ Back-end & Lógica</h3>
+          <p>Estruturação de sistemas, lógica de aplicações e integração de funcionalidades.</p>
+        </div>
+
+        <div class="card">
+          <h3>🗄️ Bases de Dados</h3>
+          <p>Gestão e organização de dados, garantindo eficiência e consistência.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- IMAGEM -->
+    <div class="sobre-img">
+      <img src="./images/ChatGPT Image Jun 3, 2026, 04_44_45 PM.png" alt="">
+    </div>
+
+  </div>
+
+</section>
+
+<section id="skills" class="skills">
+  <div class="container">
+    <h2>As Minhas Competências</h2>
+
+    <div class="grid">
+
+  <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40">
+        </div>
+        <div>
+          <h3>HTML & CSS</h3>
+          <p>Estrutura / Frontend</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+        </div>
+        <div>
+          <h3>JavaScript</h3>
+          <p>Linguagem</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40">
+        </div>
+        <div>
+          <h3>Python</h3>
+          <p>Linguagem</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40">
+        </div>
+        <div>
+          <h3>Java</h3>
+          <p>Linguagem</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
+        </div>
+        <div>
+          <h3>MySQL</h3>
+          <p>Base de Dados</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xml/xml-original.svg" alt="XML" width="40" height="40">
+        </div>
+        <div>
+          <h3>XML</h3>
+          <p>Formatação de Dados</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://logodix.com/logo/1593303.png" alt="JSON" width="40" height="40">
+        </div>
+        <div>
+          <h3>JSON</h3>
+          <p>Formatação de Dados</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="40" height="40">
+        </div>
+        <div>
+          <h3>Tailwind CSS</h3>
+          <p>FrameWork CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40">
+        </div>
+        <div>
+          <h3>Bootstrap</h3>
+          <p>FrameWork</p>
+        </div>
+      </div>
+
+   
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40">
+        </div>
+        <div>
+          <h3>Visual Studio Code</h3>
+          <p>Editor de código.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" width="40" height="40">
+        </div>
+        <div>
+          <h3>Eclipse</h3>
+          <p>IDE De Desenvolvimento</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1920px-Apache_NetBeans_Logo.svg.png" alt="NetBeans" width="40" height="40">
+        </div>
+        <div>
+          <h3>NetBeans</h3>
+          <p>IDE De Desenvolvimento</p>
+        </div>
+      </div>
+
+         <div class="card">
+        <div class="icon">
+          <img src="https://informaticasobrerodas.pt/wp-content/uploads/2025/01/servicos-assistencia-tecnica-domicilio-informatica-sobre-rodas-paginaservico-e-slideshow-v2.png" alt="Suporte Técnico" width="40" height="40">
+        </div>
+        <div>
+          <h3>Suporte Técnico</h3>
+          <p>Diagnóstico e resolução de problemas de sistemas.</p>
+        </div>
+      </div>
+
+    </div>   
+  </div>
+</section>
+
+<section id="projetos" class="seccao-elite-projetos">
+  <div class="wrapper-restrito">
+    <h2 class="titulo-seccao">Projetos</h2>
+    
+    <div class="contentor-dinamico">
+
+      <div class="projeto-bloco ativo">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">01</span>
+          <h3>Sistema de Venda de Roupas</h3>
+          <p class="sinopse-projeto">Plataforma e-commerce completa para comércio de vestuário com filtragem dinâmica de produtos e navegação fluida.</p>
+          <p class="tags-tecnologias">PHP, MySQL, JavaScript, jQuery, HTML & CSS</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="roupas">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url(./images/Golden\ Closet.png)"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">02</span>
+          <h3>Sistema de Gestão de Restaurante</h3>
+          <p class="sinopse-projeto">Sistema web para controlo de pedidos, gestão de mesas e administração interna com atualizações em tempo real via Ajax.</p>
+          <p class="tags-tecnologias">PHP, MySQL, JavaScript, jQuery, Ajax, HTML & CSS</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="restaurante">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800');"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">03</span>
+          <h3>Gestão de Inventário de Máquinas</h3>
+          <p class="sinopse-projeto">Aplicação híbrida para monitorização de infraestrutura tecnológica, hardware e consumo de APIs em rede.</p>
+          <p class="tags-tecnologias">Java, JavaSwing, MySQL, JavaScript, API, HTML & CSS</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="inventario">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=800');"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">04</span>
+          <h3>WebMessage</h3>
+          <p class="sinopse-projeto">Microsistema ágil focado na troca de mensagens em ambiente web com arquitetura leve e design responsivo.</p>
+          <p class="tags-tecnologias">Python, SQLite, Bootstrap, JavaScript, HTML & CSS</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="webmessage">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800');"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">05</span>
+          <h3>Sistema de Gestão de Livros</h3>
+          <p class="sinopse-projeto">Software desktop com interface gráfica dedicada ao controlo de acervos literários, registo de autores e empréstimos.</p>
+          <p class="tags-tecnologias">Java, JavaSwing, MySQL</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="livros">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=800');"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">06</span>
+          <h3>Página de Venda de Produtos</h3>
+          <p class="sinopse-projeto">Landing page otimizada para conversão de vendas, com foco em alta performance e design responsivo moderno.</p>
+          <p class="tags-tecnologias">HTML, CSS, JavaScript</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="landing">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800');"></div>
+        </div>
+      </div>
+
+      <div class="projeto-bloco">
+        <div class="coluna-texto">
+          <span class="id-projeto texto-gradiente">07</span>
+          <h3>CRUD Estudantes</h3>
+          <p class="sinopse-projeto">Sistema focado na persistência e manipulação básica de dados escolares em base de dados relacional.</p>
+          <p class="tags-tecnologias">Java, MySQL</p>
+          
+          <div class="rodape-projeto">
+            <div class="links-acao">
+              <a href="#" class="botao-circular" title="Ver Código Fonte">&#128279;</a>
+              <button class="btn-detalhes-trigger" data-projeto="crud">Ver Detalhes</button>
+            </div>
+            <div class="controlo-navegacao">
+              <button class="seta-opcao btn-anterior">&#10094;</button>
+              <button class="seta-opcao btn-proximo">&#10095;</button>
+            </div>
+          </div>
+        </div>
+        <div class="coluna-moldura">
+          <div class="imagem-fundo" style="background-image: url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800');"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="detalhesModal" class="modal-custom">
+  <div class="modal-interior">
+    <span class="fechar-modal-btn">&times;</span>
+    <h3 id="modalTitulo" class="modal-titulo-projeto">Nome do Projeto</h3>
+    
+    <div class="modal-conteudo-scroll">
+      <p id="modalDescricaoCompleta" class="modal-descricao-longa">Descrição detalhada aqui...</p>
+      
+      <h5>Galeria de Imagens / Screenshots</h5>
+      <div class="modal-galeria-grid" id="modalGridImagens">
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section id="contacto" class="seccao-elite-contacto">
+  <div class="wrapper-restrito-contacto">
+    <h2 class="titulo-seccao-contacto">Entre em Contacto</h2>
+    
+    <div class="contentor-contacto">
+      <div class="bloco-info-contacto">
+        <p class="subtitulo-contacto">Vamos trabalhar juntos?</p>
+        <p class="descricao-contacto">Se tens um projeto em mente, uma proposta ou simplesmente queres trocar ideias sobre desenvolvimento, preenche o formulário ou usa os canais diretos.</p>
+        
+        <div class="canais-contacto">
+          <div class="canal-item">
+            <span class="canal-icone">&#128231;</span>
+            <span class="canal-texto">seuemail@example.com</span>
+          </div>
+          <div class="canal-item">
+            <span class="canal-icone">&#128222;</span>
+            <span class="canal-texto">+258 XXX XXX XXX</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bloco-formulario-contacto">
+        <form action="https://formsubmit.co/amaoze811@gmail.com" method="POST" class="formulario-premium">
+          
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="window.location.href">
+
+          <div class="campo-grupo">
+            <input type="text" name="name" id="nome" required placeholder=" ">
+            <label for="nome">O teu Nome</label>
+          </div>
+
+          <div class="linha-dupla-campos">
+            <div class="campo-grupo">
+              <input type="email" name="email" id="email-form" required placeholder=" ">
+              <label for="email-form">O teu Email</label>
+            </div>
+
+            <div class="campo-grupo">
+              <input type="tel" name="phone" id="telefone-form" placeholder=" ">
+              <label for="telefone-form">Contacto Telefónico (Opcional)</label>
+            </div>
+          </div>
+
+          <div class="campo-grupo">
+            <input type="text" name="_subject" id="assunto-form" required placeholder=" ">
+            <label for="assunto-form">Assunto da Mensagem</label>
+          </div>
+
+          <div class="campo-grupo">
+            <textarea name="message" id="mensagem" rows="4" required placeholder=" "></textarea>
+            <label for="mensagem">Sua Mensagem</label>
+          </div>
+
+          <button type="submit" class="btn-enviar-formulario">
+            Enviar Mensagem
+            <span class="seta-botao">&#10095;</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Alexandre Maoze. Todos os direitos reservados.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/258000000000" target="_blank">WhatsApp</a>
+
+<script src="./Script/scripts.js"></script>
+</body>
+</html>
