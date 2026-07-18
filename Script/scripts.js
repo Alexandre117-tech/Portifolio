@@ -1,10 +1,28 @@
-  function showSection(id){
-    const sections = document.querySelectorAll('section');
-    sections.forEach(sec => sec.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-  }
+  // Sua função original idêntica, sem alterações
+function showSection(id){
+  const sections = document.querySelectorAll('section');
+  sections.forEach(sec => sec.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
 
+// Lógica de controle do Menu Hambúrguer / Gaveta
+const menuToggle = document.getElementById('menuToggle');
+const navMenu = document.getElementById('navMenu');
 
+// Abre e fecha a gaveta ao clicar no botão
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  navMenu.classList.toggle('open');
+});
+
+// Fecha a gaveta automaticamente quando qualquer link do menu for clicado no mobile
+const menuLinks = document.querySelectorAll('nav a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menuToggle.classList.remove('active');
+    navMenu.classList.remove('open');
+  });
+});
 
 
 
@@ -56,7 +74,7 @@ const informacoesProjetos = {
   restaurante: {
     titulo: "Sistema de Gestão de Restaurante",
     descricao: "Desenvolvido para automatizar as operações do salão e da cozinha. Permite a abertura de mesas, lançamento de pedidos em tempo real por colaboradores e cálculo automatizado de contas. Toda a comunicação de status do pedido para o painel da cozinha é feita de forma assíncrona com Ajax.",
-    fotos: ["https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500", "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=500"]
+    fotos: ["../images/Banquetedourado1.png", "../images/Banquetedourado2.png"]
   },
   inventario: {
     titulo: "Gestão de Inventário de Máquinas",
@@ -71,12 +89,12 @@ const informacoesProjetos = {
   livros: {
     titulo: "Sistema de Gestão de Livros",
     descricao: "Aplicação desktop nativa robusta focada na gestão de acervos de bibliotecas e livrarias. Realiza pesquisas complexas por autor, género ou editora e gere empréstimos e devoluções, alertando sobre prazos ultrapassados.",
-    fotos: ["https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500"]
+    fotos: ["../images/livros.png", "../images/livros1.png"]
   },
   landing: {
-    titulo: "Página de Venda de Produtos",
+    titulo: "Página de Venda de Produtos(JumpStarts)",
     descricao: "Landing Page de alta conversão estruturada com semântica moderna. Possui secções de prova social, tabelas de preços apelativas, animações de scroll puras em JavaScript e foco total na otimização de carregamento (SEO).",
-    fotos: ["https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500"]
+    fotos: [ "../images/jumpstart1.png", "../images/jumpstart2.png", "../images/jumpstart3.png"]
   },
   crud: {
     titulo: "CRUD Estudantes",
